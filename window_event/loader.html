@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>loader</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    </head>
+    <body onload="mainfunction()">
+        <!--loader applied hear-->
+
+             <div id="loader"></div>
+             <div id="mainfunction">
+        <!--aibo header section-->
+        <section id="header">
+            <div class="logo">
+            <a href="loader.html"></a><b>sony</b>
+        </div>
+        <div class="navbar">
+              <ul class="navbar-link">
+           <li><a href="about.html">about aibo</a></li>
+           <li><a href="services.html">services</a></li>
+           <li><a href="devloper.html">devloper</a></li>
+           <li><a href="feedback.html">feedback</a></li>
+           <li><a href="account.html">account</a></li>
+           <li><a href="#" class="active">buy now</a></li>
+              </ul>
+
+            </section>
+        </div>
+        <div class="box">
+        <h1>contact with us in google!</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aut corrupti numquam temporibus? Eum aliquam, dignissimos soluta praesentium quidem saepe </p>
+    </div>
+    <!-- loader java script when window in  onload events-->
+    <script>
+        var my;
+        function mainfunction()
+        {
+            my=setTimeout("test()",2000);
+        }
+
+        function test()
+        {
+            document.getElementById("mainfunction").style="display:block";
+            document.getElementById("loader").style="display:none";
+            
+        }
+    </script>
+     </div>
+</body>
+</html>

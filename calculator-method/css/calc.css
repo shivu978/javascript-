@@ -1,0 +1,74 @@
+body
+{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color:white;
+
+}
+ .calculator
+ {
+    width: 100%;
+    height: auto;
+ }
+ .calc
+ {
+   width: 100%;
+   height: auto;
+   margin-top: 5%;
+ }
+ table
+ {
+   width: 100%;
+   height: auto;
+ }
+ input
+ {
+    width: 78%;
+    height: auto;
+    padding: 20px;
+    background-color:lightgray;
+    border: none;
+    text-align: right;
+    color:black;
+    font-size: 26px;
+    box-shadow: 0px 0px 1px 1px;
+ }
+
+ #btn:nth-child(even)
+ {
+   width: 20%;
+   height: auto;
+   padding:15px;
+   background-color:gainsboro;
+   color:black;
+   font-size: 26px;
+   border-radius: 5px;
+   border:none;
+ }
+
+ #btn:nth-child(odd)
+ {
+   width: 20%;
+   height: auto;
+   padding:15px;
+   background-color:grey;
+   color:black;
+   font-size: 26px;
+   border-radius: 5px;
+   border: none;
+
+ }
+
+#btn2
+{
+  width: 20%;
+   height: auto;
+   padding:15px;
+   background-color:orangered;
+   color:white;
+   font-size: 30px;
+   border-radius: 10px;
+   border:10px color(orangered);
+ 
+}

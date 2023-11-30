@@ -1,0 +1,108 @@
+    
+@import url('font-family.css');
+
+body
+{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color:white;
+}
+#header
+{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-bottom: solid 2px black;
+}
+.logo
+{
+    width: 30%;
+    height: auto;
+    font-size: 25px;
+    padding: 0px;
+    color: white;
+    
+}
+.logo b
+{
+margin-left: 10%;
+margin-top: 5%;
+}
+.navbar
+{
+    width: 250%;
+    height: auto;
+    font-size: 25px;
+    
+
+}
+.navbar-link li
+{
+    display: inline-block;
+    padding: 0px 25px;
+}
+.navbar-link a
+{
+    color:red;
+    text-decoration: none;
+    list-style-type:none ;
+    text-transform: capitalize;
+}
+.active
+{
+    background-color: red;
+    color: white !important;
+    padding: 10px;
+}
+
+.box 
+{
+    width: 270px;
+    height: 270px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 5%;
+    margin-top:3% ;
+    transition: 2s ease all;
+}   
+.box:hover
+{  
+    background-color: pink; 
+   /*background:url(--/image/back.jpg') no-repeat;
+   background-size: cover;*/
+   transform: rotate(360deg);
+}
+
+
+/* loader applied style sheet*/
+
+#loader
+{
+    width: 300px;
+    height: 300px;
+    background: url(images/loading-gif\ 1.gif);
+    background-size: 300px 300px;
+    margin-left: 42%;
+}
+
+#loader_page
+{
+    width: 300px;
+    height: 300px;
+    background: url(images/loading-gif\ 1.gif);
+    background-size: 300px 300px;
+    margin-left: 42%;
+}
+#mainfunction
+{
+    display: none;
+}
+
